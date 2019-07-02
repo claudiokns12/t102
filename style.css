@@ -1,0 +1,91 @@
+/* Todo o corpo da Página */
+body{
+    margin: 0%;
+    font-family: 'Montserrat';
+}
+/* Barra de Navegação */
+nav{
+    background-color: orange;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+/* Itens da barrra de navegação */
+nav a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 15pt;
+    font-family: 'Montserrat';
+}
+/* Banner onde fica a imagem do site, do background */
+.banner{
+    height: 400px;
+    background-image: url("https://conteudo.imguol.com.br/45/2018/07/17/mao-santa-burguer-1531851949973_v2_900x506.jpg");
+    background-size: cover;
+}
+/* Títulos encima da imagem de fundo */
+.banner h1, h4{
+    color: white;
+    font-family: 'Just Another Hand', cursive;
+    font-size: 30px;
+    text-align: center;
+    background-color: black;
+}
+/* Formulários */
+.cadastro{
+    display: flex;
+    justify-content: center;
+}
+/* Div com os itens do formulário */
+.cadastro div{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+/* Campos da área de formulários */
+input{
+    border-radius: 3px;
+    margin-bottom: 8px;
+    padding: 5px;
+    
+}
+/* Hover é quando você passa o mouse encima de algo */
+.botao:hover{
+    background-color: darkslategrey;
+    color: white;
+}
+
+nav a:hover{
+    color: white;
+}
+/* Mensagem dentro do input de formulário */
+::placeholder{
+    color: gray;
+    font-size: 12px;
+}
+
+footer {
+    height: 35px;
+    background-color: orange;
+    display: block;
+    justify-content: center;
+    align-items: center;
+} 
+
+footer a{
+    height: 35px;
+    background-color: orange;
+    display: block;
+    justify-content: center;    
+    
+}
+
+footer div{
+    background-color: orange;
+    display: flex;
+    justify-content: space-between;
+
+}
